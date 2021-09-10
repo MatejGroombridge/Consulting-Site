@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&family=Work+Sans:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  font-size: 28px;
+  font-family: "Work Sans", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: var(--lighter-grey);
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--lighter-grey);
+}
+
+h2 {
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 0.5em;
+  color: var(--dark-grey);
+}
+
+h1 {
+  font-size: 70px;
+  padding: 0.5em;
+  color: var(--dark-grey);
+  font-family: "Work Sans", Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  font-size: 22px;
+  padding: 0.5em;
+  color: var(--dark-grey);
+  font-weight: 700;
+}
+
+p {
+  line-height: 1.3em;
+  color: var(--dark-grey);
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  background: var(--primary);
+  box-shadow: 5px 10px 10px #161a1d20;
+  transition: 0.5s all;
+}
+
+.link:hover {
+  transform: scale(1.05);
+}
+
+.job {
+  font-size: 12px;
+  color: var(--light-red);
+  text-transform: uppercase;
+}
+
+.name {
+  font-weight: bold;
+  color: var(--grey);
+}
+
+.person1 {
+  background: url(/images/woman1.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.person2 {
+  background: url(/images/man1.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.person3 {
+  background: url(/images/woman2.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.person4 {
+  background: url(/images/man2.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.person1 {
+  background: url(/images/woman1.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.testimony-text {
+  color: var(--lighter-grey);
+  line-height: 1.2em;
+  font-size: 20px;
+  font-style: oblique;
+}

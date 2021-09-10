@@ -1,0 +1,504 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&family=Work+Sans:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&family=Work+Sans:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  font-size: 28px;
+  font-family: "Work Sans", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: var(--lighter-grey);
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--lighter-grey);
+}
+
+h2 {
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 0.5em;
+  color: var(--dark-grey);
+}
+
+h1 {
+  font-size: 70px;
+  padding: 0.5em;
+  color: var(--dark-grey);
+  font-family: "Work Sans", Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  font-size: 22px;
+  padding: 0.5em;
+  color: var(--dark-grey);
+  font-weight: 700;
+}
+
+p {
+  line-height: 1.3em;
+  color: var(--dark-grey);
+}
+
+.link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  background: var(--primary);
+  -webkit-box-shadow: 5px 10px 10px #161a1d20;
+          box-shadow: 5px 10px 10px #161a1d20;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.link:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.job {
+  font-size: 12px;
+  color: var(--light-red);
+  text-transform: uppercase;
+}
+
+.name {
+  font-weight: bold;
+  color: var(--grey);
+}
+
+.person1 {
+  background: url(/images/woman1.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.person2 {
+  background: url(/images/man1.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.person3 {
+  background: url(/images/woman2.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.person4 {
+  background: url(/images/man2.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.person1 {
+  background: url(/images/woman1.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.testimony-text {
+  color: var(--lighter-grey);
+  line-height: 1.2em;
+  font-size: 20px;
+  font-style: oblique;
+}
+
+:root {
+  --primary: #a4161a;
+  --black: #0b090a;
+  --dark-grey: #161a1d;
+  --white: #ffffff;
+  --grey: #b1a7a6;
+  --light-grey: #d3d3d3;
+  --lighter-grey: #f5f3f4;
+  --light-red: #e5383b;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  background-color: var(--dark-grey);
+  z-index: 2;
+}
+
+header .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .links a {
+  margin: 0 1em;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--lighter-grey);
+}
+
+.header-space {
+  height: 70px;
+}
+
+.media-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 120px;
+}
+
+.media-links .media {
+  width: 25px;
+}
+
+.COVID-alert {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 30px;
+  background: var(--primary);
+  color: var(--light-grey);
+}
+
+.COVID-alert a {
+  margin: 0 1em;
+  color: var(--light-grey);
+}
+
+.COVID-alert p {
+  color: var(--light-grey);
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 85vh;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: linear-gradient(135deg, #00000070, #e5383b70), url(/images/main.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero .hero-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 2em;
+  height: 70vh;
+}
+
+.hero .hero-text h1,
+.hero .hero-text h2,
+.hero .hero-text p,
+.hero .hero-text a {
+  color: var(--lighter-grey);
+  margin: 0.5em;
+}
+
+.hero .hero-text .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 600px;
+}
+
+.hero .hero-text .future {
+  color: var(--light-red);
+}
+
+.hero .hero-text h1 {
+  padding: 0;
+  margin: 0.25em;
+}
+
+.hero .hero-text h2 {
+  font-size: 24px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.hero .hero-text p {
+  padding: 1em;
+  line-height: 1.2em;
+  letter-spacing: 2px;
+  text-align: justify;
+}
+
+.card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card-wrapper .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 20vw;
+  height: 25vw;
+  min-width: 300px;
+  min-height: 350px;
+  margin: 1em;
+  border-radius: 0.5em;
+  -webkit-box-shadow: 0px 0px 5px #161a1d20;
+          box-shadow: 0px 0px 5px #161a1d20;
+  background: var(--white);
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.card-wrapper .card .card-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.card-wrapper .card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.services {
+  background: var(--lighter-grey);
+}
+
+.card-top {
+  height: 100px;
+}
+
+.card-top h3 {
+  color: var(--dark-grey);
+  background: var(--white);
+  border-radius: 1em;
+}
+
+.card-bottom {
+  height: 150px;
+}
+
+.card-bottom p {
+  line-height: 1.5em;
+  padding: 1.5em;
+}
+
+.card-link a {
+  margin: 1em;
+  margin-bottom: 2em;
+  -webkit-box-shadow: 0px 0px 5px #161a1d20;
+          box-shadow: 0px 0px 5px #161a1d20;
+}
+
+.management {
+  background: url(/images/day54-building.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+.tech {
+  background: url(/images/118-macbook.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+.financial {
+  background: url(/images/day72-designer-tool-war.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+.testimonies {
+  background: var(--dark-grey);
+  height: 100vh;
+}
+
+.testimonies h2 {
+  color: var(--lighter-grey);
+}
+
+.testimony-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80vw;
+  height: 70vh;
+}
+
+.testimony-wrapper .testimony {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 35vw;
+  min-width: 200px;
+  min-height: 20px;
+  margin: 1em;
+  padding: 1em;
+}
+
+.testimony-wrapper .testimony .person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.testimony-wrapper .testimony .person .img-circle {
+  height: 40px;
+  width: 40px;
+  margin: 0.5em;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=index.css.map */
