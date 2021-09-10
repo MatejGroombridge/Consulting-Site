@@ -2,6 +2,8 @@
 
 A consulting site I made for fun and to practice my design/frontend development skills.
 
+Unfinished: No mobile or tablet view. Some measurements are incorrect. Facebook Logo. Animations. Quotes around testimonies. No contact styling.
+
 ## Table of contents
 
 - [Screenshot](#screenshot)
