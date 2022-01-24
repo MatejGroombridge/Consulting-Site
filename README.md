@@ -1,8 +1,8 @@
-# Freeman Consulting - Unfinished
+# Freeman Consulting
 
-A consulting site I made for fun and to practice my design/frontend development skills.
+This project was abandoned. Feel free to read through the code.
 
-Unfinished: No mobile or tablet view. Some measurements are incorrect. Facebook Logo. Animations. Quotes around testimonies. No contact styling.
+TO DO: Add mobile + tablet view. Some measurements are incorrect. Facebook Logo. Animations. Quotes around testimonies. Contact styling.
 
 ## Table of contents
 
